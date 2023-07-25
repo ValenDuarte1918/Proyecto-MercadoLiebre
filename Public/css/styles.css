@@ -25,17 +25,19 @@ main{
     margin: auto;
 }
 .logo{
-    width: 13%;
+    width: 25vw;
     padding: 10px;
 }
 .banner{
     padding: 20px 0px 20px;
+    width: 100vw;
 }
 .icono-buscador{
     background-color: #fff;
     position: relative;
     padding: 3px;
     height: 35px;
+    
 }
 .input{
     background-color: #fff;
@@ -47,7 +49,7 @@ main{
     height: 35px;
 }
 .barra-busqueda{
-    width: 50%;
+    width: 50vw;
     padding:5px;
     display: flex; 
     align-items:center;
@@ -88,10 +90,6 @@ p.cuerpoDeTexto{
 }
 .burger-menu{
     font-family: 100px;
-
-
-
-
 }
 .burger-menu i{
     background-color: var(--Celeste);
