@@ -1,0 +1,98 @@
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.form-reg{
+    padding: 30px 40px;
+    padding-left: 40%;
+    width: 100vw;
+}
+.titulares{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 6%;
+}
+.form-info{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position:relative
+}
+.form-info label{
+    margin-bottom: 10px;
+}
+.form-info input{
+    border: 1px solid #1259c3;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 15px;
+    width: 20%;
+}
+.form-perfil{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.form-perfil input{
+   width: 30px;
+}
+.form-cat{
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: row;
+}
+.form-cat input{
+    width: 30px;
+}
+.form-usuario{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position:relative;
+}
+.form-usuario label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.form-usuario input{
+    border: 1px solid #1259c3;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    padding: 15px;
+    width: 30%;
+}
+.form-reg button{
+    background-color: var(--Celeste);
+    border: 2px solid #1259c3;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 30%;
+    transition: all 0,5;
+}
+.form-reg button:hover{
+    background-color: var(--Azul);
+}
+@media (max-width: 769px){
+    .form-reg{
+        padding: 10px;
+        width:100vw
+    }
+}

@@ -1,0 +1,79 @@
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.form{
+    padding: 30px 40px;
+}
+.form-main{
+padding-left: 40%;
+width: 100vw;
+}
+.titulares{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.form-control label{
+    margin-bottom: 10px;
+    align-items: center;
+}
+.form-control input{
+    border: 1px solid ;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    padding: 15px;
+    width: 30%;
+}
+.Contrasenia label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.Contrasenia input{
+    border: 1px solid ;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    padding: 15px;
+    width: 30%;
+}
+.form button{
+    background-color: var(--Celeste);
+    border: 2px solid #1259c3;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 30%;
+    transition: all 0,5;
+}
+.form button:hover{
+    background-color: var(--Azul);
+}
+@media (max-width: 769px){
+    .form-main{
+        padding: 10px;
+        width:100vw
+    }
+}
+
